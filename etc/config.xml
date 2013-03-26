@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <CodeStudio_BuyItNow>
+            <version>0.1.0</version>
+        </CodeStudio_BuyItNow>
+    </modules>
+    <frontend>
+    <routers>
+        <checkout>
+            <args>
+                <modules>
+                    <CodeStudio_BuyItNow before="Mage_Checkout">CodeStudio_BuyItNow</CodeStudio_BuyItNow>
+                </modules>
+            </args>
+        </checkout>
+    </routers>
+    </frontend>
+</config>
